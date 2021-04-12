@@ -1,0 +1,29 @@
+/*
+ * Copyright (C) 2021 Hal Perkins.  All rights reserved.  Permission is
+ * hereby granted to students registered for University of Washington
+ * CSE 331 for use solely during Winter Quarter 2021 for purposes of
+ * the course.  No other use, copying, distribution, or modification
+ * is permitted without prior written consent. Copyrights for
+ * third-party components of this work must be honored.  Instructors
+ * interested in reusing these course materials should contact the
+ * author.
+ */
+
+/*
+NOTE: This file is designed to help you just get a simple canvas with the correct
+settings, centered on the screen. If you'd like to modify this, you're totally
+welcome to do so. This is just to help you get something simple working first.
+ */
+
+/*
+This makes all <canvas> elements fill 90% of the width of whatever they're inside.
+We deliberately do not set the height here too - when we set canvas.width
+and canvas.height in Map.tsx, this 90% helps keep the canvas from being too big,
+but not setting the height means the image keeps the correct aspect ratio (it'll be set
+automatically to the correct thing).
+ */
+canvas {
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+}
